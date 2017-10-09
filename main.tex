@@ -1,0 +1,193 @@
+%% start of file `main.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Juan Cruz}{Martini}
+\title{Software Engineer}                               % optional, remove / comment the line if not wanted
+\address{Rosario}{Argentina}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+54~9~(341)~546~0866}                   % optional, remove / comment the line if not wanted
+\email{jcruzmartini@gmail.com}                               % optional, remove / comment the line if not wanted
+\skype{skype: juan.cruz.martini}
+\extrainfo{32 years old}                 % optional, remove / comment the line if not wanted
+\photo[72pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Working Experience}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Summary}
+Software Engineer, with more than 8 years of experience in software development in a wide range of systems 
+such as Backend applications, Websites, Ecommerces, Embedded applications, High Scalability Service layer and
+others.
+
+\medskip I have participated in large projects that have given me the opportunity to gain extensive knowledge of various new
+technologies and be involved in the complete life cycle of the software development process, including requirements
+gathering and definition, functional analysis, prototyping, proof of concept, design, implementation, testing,
+maintenance, bugs management, knowledge transfer, leading task driven teams of developers, and training new
+developers.
+
+\medskip Currently I am leading and developing with an inter cultural and multi country based group of 14 people including front and backend developers and QA.
+
+\medskip I would like to be considered as an enthusiastic, proactive and independent engineer with great communication skills,
+and good interpersonal and leadership abilities. Also as an Agile Methodologies promoter.
+
+\medskip The technologies I've been using the latest years include:
+\begin{itemize}
+  \item Java 8, Apache Storm, Redis, Redshift, AWS, Postgres, ActiveMQ
+  \item Groovy - Grails
+  \item HTML5, CSS3, Bootstrap, JavaScript - jQuery
+  \item TDD, Git, Scrum, Agile, Kanban and XP
+  \item EMR, Hadoop, Pig, Sqoop, Hive
+  \item Spring, Jersey, Jackson, Hibernate, Guice, RabbitMQ, Maven, Docker, Jenkins, Tomcat, Jetty
+  \item Linux
+\end{itemize}
+\clearpage
+
+\section{Experience}
+\cventry{Nov 2011\\Present}{Senior Software Engineer}{Velocity Partners}{Rosario, Argentina}{}
+  {
+    Projects:\\
+    \begin{itemize}
+      \item The Hackett Group (Conshohocken, PA, USA):
+        \begin{itemize}
+          \item Role: Team Lead. Dec 2014 - Present
+          \item Responsibilities: Provide management leadership in the design and develop of backend and web applications. Lead SCRUM meetings such as refinements, plannings and daily standups.
+		Discuss and agree with product owners and the business all the requirements of the applications. Design and Implementation of a web application based on Grails.
+		Design and Implementation of a Big Data Solution, using Apache Storm/Java 8/Redshift/Redis
+          \item Project: The Hackett Group is a global strategic business advisory and operations improvement consulting firm, leader in best practice advisory, business benchmarking, 
+                and transformation consulting services including strategy and operations, working capital management, and globalization advice.
+          \item Technologies: Java 8, Grails, Groovy, AWS, Apache Storm, Redshift, AWS, Git, Redis, Jenkins, Maven, Linux and Tomcat.
+        \end{itemize}
+      \item G2 Web Services (Bellevue, WA, USA):
+        \begin{itemize}
+          \item Role: Java Software Engineer. Nov 2011 - Dec 2014.
+          \item Responsibilities: Design and implementation of a high performance REST API for searching against ElasticSearch using Java.
+                Architect, design, and code new features and enhancements of an ETL process for processing, cleaning, transforming huge files [\textasciitilde{}100 GB] and finally load to ElasticSearch clusters. Using BigData technologies such as sqoop/hadoop/pig unning over an EMR servers using Java
+          \item Project: Its main role is to audit and monitor online e-commerce transactions and their merchants in order to avoid counterfeits, data robbery, illegal transactions, content violations, etc.
+          \item Technologies: Java, REST API, ActiveMQ, PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch, Git, Linux, Guice and MyBatis ORM.
+        \end{itemize}
+    \end{itemize}
+  }
+
+\cventry{Jan 2011\\Dec 2016}{Founder}{Techner}{Rosario, Argentina}{}
+  {
+    Projects:\\
+    \begin{itemize}
+      \item TAU - Telemetry Solutions (Rosario, ARG):
+        \begin{itemize}
+          \item Role: Co-Founder and Technical Lead. 
+          \item Responsibilities: Set up the start-up from scratch, Brand design, Product Design, Business Strategies and Team Managment. Lead the development of electronic and software products, including 2 web applications, 1 backend application and an embedded system. 
+          \item Project: Young startup that provides real time information for the users in order to reduce the uncertainty when making decisions. The target market is made up of LatinAmerican farmers.
+          \item Technologies: Java, Guice, MyBatis, GSM/GPRS, C, MPLAB, Proteus, HTML, Jquery, Boostrap, MySQL, AWS, ngnix and postfix
+        \end{itemize}
+    \end{itemize}
+  }
+
+\cventry{Jan 2010\\Nov 2011}{Senior Software Developer}{Globant}{Rosario, Argentina}{}
+  {
+    Projects:\\
+    \begin{itemize}
+      \item Razorfish - BuildABear.com (Atlanta, GA, USA):
+        \begin{itemize}
+          \item Role: Java Software Engineer. 
+          \item Responsibilities: Analysis, design and subsequent implementation of a web application based on ATG Oracle E commerce using Java, JQuery, HTML and Boostrap.
+          \item Project: Build-A-Bear Workshop sells teddy bears and other stuffed animals. Customers go through an interactive process in which the stuffed animal of their choice is assembled and customized during their visit to the store.
+          \item Technologies: Java, ATG, SOAP Services, REST Services, Boostrap, HTML, JQuery, Oracle 9g, JBoss and SVN 
+        \end{itemize}
+    \end{itemize}
+  }
+
+\cventry{Feb. 2007\\Apr. 2010}{Software Developer}{Accenture}{Rosario, Argentina}{}
+  {
+    Projects:\\
+    \begin{itemize}
+      \item Telefónica de España - Movistar (Madrid, ES):
+        \begin{itemize}
+          \item Role: Java Software Engineer. 
+          \item Responsibilities:  Analysis, design, development, implementation and maintenance of 4 Java applications, including an EJB app, a website and two multi threading backend applications
+          \item Project: Telefonica/Movistar is a Spanish multinational broadband and telecommunications provider with operations in Europe, Asia, and North, Central and South America.
+          \item Technologies: Java, HTML, JavaScript, Oracle 9g, EJB , CSV, BEA Tuxedo and WebLogic
+        \end{itemize}
+    \end{itemize}
+  }
+
+\section{Skills}
+\cvitem{Key}{Entrepreneur, Enthusiastic, Self-Motivated, Proactive with good communication skills. Responsible and methodical.}
+\cvitem{Programming Languages}{Java, Groovy, Grails and JavaScript}
+\cvitem{Databases}{Redis, Mongo, RedShift, Postgres, MySql, ElasticSearch and Oracle}
+\cvitem{Big Data}{Hadoop, Apache Storm, EMR, Hive, Pig and Sqoop}
+\cvitem{OS}{Linux Expert, Windows Intermediate}
+\cvitem{Methodologies}{Agile Methodologies promoter, Kanban, XP, Scrum}
+\cvitem{Others}{JQuery, CSS, HTML, Spring, Jersey, Jackson, Hibernate, Guice, ActiveMQ, RabbitMQ, Maven, Jenkins, Tomcat, Jetty, AWS}
+\cvitem {Tools}{Git, Slack, Elasticsearch, Jenkins, JIRA, VersionOne, MPLAB, Docker, Bitbucket}
+
+\section{Certifications}
+\cventry{}{Scrum Master}{}{Scrum Alliance}{}{July 2015, Certificant ID: 000435678 Certification Expires: 08 July 2017}
+
+\section{Education}
+\cventry
+{Sep 2009}
+{BS in Systems Engineering}
+{Universidad Tecnológica Nacional}
+{}
+{\textit{Rosario, Argentina}}
+{}
+\cventry
+{Dec 2016}
+{Masters Business Management}
+{Universidad Nacional de Rosario}
+{}
+{\textit{Rosario, Argentina}}
+{}
+\vspace{1mm}
+
+\section{Languages}
+\cvitemwithcomment{Spanish}{Native}{}
+\cvitemwithcomment{English}{Full professional proficiency}{}
+
+\section{About me}
+Entrepreneur and Runner. Love doing sports and living ourdoor. Love reading books
+
+\vspace{1mm}
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+%% end of file `main.tex'.

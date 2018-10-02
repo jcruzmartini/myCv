@@ -6,6 +6,16 @@ My resume in LaTeX
 
 ## Build pdf file
 ```
-pdflatex main.tex 
+$ pdflatex main.tex 
+```
+
+*Output expected*
+```
+.
+.
+.
+Output written on main.pdf (4 pages, 317264 bytes).
+Transcript written on main.log.
+
 ```
 

@@ -1,4 +1,4 @@
-# Juan Cruz Martini Resume
+# Juan Cruz Martini
 My resume in LaTeX
 
 ## Pre-requisites

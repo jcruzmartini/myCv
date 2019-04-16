@@ -1,0 +1,158 @@
+%% start of file `main.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Damian}{Valdés}
+\title{Software Engineer}                               % optional, remove / comment the line if not wanted
+\address{Argentinian}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+54~9~(341)~547~8505}                   % optional, remove / comment the line if not wanted
+\email{damian.ignacio@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{https://github.com/damianignacio} 
+\skype{skype: damian.ignacio}
+\extrainfo{36 years old}                 % optional, remove / comment the line if not wanted
+\photo[72pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Working Experience}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Summary}
+I am a passionate Software developer with over 10 years of experience.
+\medskip Through several experiences working remotely and on-site with different teams I acquired great expertise with agile methodologies.
+
+\medskip Even though I worked with many programming languages during all my professional career, for the last few years I've been focusing on Python,
+Javascript and Node.js in order to face more complex and challenging projects.
+
+\medskip Always willing to learn and innovate working with cutting-edge technologies and methodologies.
+
+\section{Experience}
+\cventry{June 2010\\Present}{Lead Software Engineer - DevOps - Consultant}{WAMBAM FENCE INC}{}{}
+  {
+    \begin{itemize}
+      \item
+        \begin{itemize}
+          \item \textbf{Responsibilities}: Work as software developer in a North Carolina based company. I've developed a custom e-commerce and content management system with Django. Currently working in the customization of an ERP software (Odoo), APIs development and back office processes to sopport EDI with multiple companies.
+          \item \textbf{Technologies}: MySql, JS, HTML, Css, Python, Django, React, Flask, Angular, Authorize.net API.
+          \item \textbf{Methodologies}: SCRUM.
+        \end{itemize}
+    \end{itemize}
+  }
+
+\cventry{October 2014\\Present}{Lead Software Engineer - DevOps}{GLOBESPINNING INC}{}{}
+  {
+    \begin{itemize}
+      \item
+        \begin{itemize}
+          \item \textbf{Responsibilities}: Work as a backend developer in a Seattle based startup. In this project I had the great experience of being part of it from the very beginning in the development of the web service that after a while started to be consumed by a mobile application. This allowed me to be part of some
+decisions like technologies to use and the overall application design. I also got the chance to work in the infrastructure orchestration, mostly using Amazon Web Services achieving a fully automated build of the entire stack.
+          \item \textbf{Technologies}:  Python, MySQL, Cloudformation, SQS, RDS, S3, SNS, Django, Django REST framework, Celery, Pillow, Facebook SDK.
+          \item \textbf{Methodologies}: SCRUM.
+        \end{itemize}
+    \end{itemize}
+  }
+
+\cventry{February 2013\\December 2014}{Sr. Software Developer}{MUNCHKINFUN}{}{}
+  {
+    \begin{itemize}
+      \item
+        \begin{itemize}
+          \item \textbf{Responsibilities}: Is a Miami based company that runs a full customized booking system. As the business model was constantly changing, my duties were mainly related to developing new features. We were a team of two and a designer with the great challenge to make the application scalable enough to allow us to make a lot of changes in a short period of time.
+          \item \textbf{Technologies}:  Python, MongoDB, Elasticsearch, JS, HTML, Css, Amazon web services, Stripe, Knockout.js, Django, Fabric, mongoengine, celery, less, jQuery.
+          \item \textbf{Methodologies}: SCRUM.
+        \end{itemize}
+    \end{itemize}
+  }
+
+\cventry{September 2011\\October 2014}{Sr. Software Developer}{G2 WEB SERVICES}{}{}
+  {
+    \begin{itemize}
+      \item
+        \begin{itemize}
+          \item \textbf{Responsibilities}: Work as frontend and backend developer in a Bellevue based company. The main business of the company is auditing and monitoring websites looking for illegal activity and fraudulent
+content. The most attractive thing of this project was that I got opportunity to work with many technologies such as PHP, Java and Ruby. My duties were mainly related to the maintenance and new features implementation on a PHP
+applicationIs a Miami based company that runs a full customized booking system. As the business model was constantly changing, my duties were mainly related to developing new features. We were a team of two and a designer with the great challenge to make the application scalable enough to allow us to make a lot of changes in a short period of time.
+          \item \textbf{Technologies}:  PHP, Java, Mysql, PostgreSQL, JS, HTML, Css, Ruby,  Zend, Doctrine, OSGi, ExtJS, Rails, jQuery.
+          \item \textbf{Methodologies}: SCRUM.
+        \end{itemize}
+    \end{itemize}
+  }
+
+
+\section{Skills}
+\cvitem{Programming Languages}{Python, node and JavaScript}
+\cvitem{Databases}{Redis, MongoDB, Postgres, MySql, SQLite, CouchDB, Elasticsearch}
+\cvitem{Methodologies}{TDD, Unit tests, Agile Methodologies promoter, Kanban, XP, Scrum}
+\cvitem{Others}{Django, Flask, Celery, React, Angular, Docker, Amazon AWS, CloudInit}
+\cvitem{Tools}{Docker, Git, Slack, Jenkins, JIRA}
+
+\section{Certifications}
+\cventry{}{Scrum Master}{}{Scrum Alliance}{}{May 2014}
+
+\section{Education}
+\cventry
+{2010 – 2013}
+{BS in Computer Science (not completed)}
+{Universidad Nacional de Rosario}
+{}
+{\textit{Rosario, Argentina}}
+{}
+\cventry
+{2002 – 2007}
+{BS in Electronic Engineering (not completed)}
+{Universidad Nacional de Rosario} 
+{}
+{\textit{Rosario, Argentina}}
+{}
+\vspace{1mm}
+
+\section{Languages}
+\cvitemwithcomment{Spanish}{Native}{}
+\cvitemwithcomment{English}{Full professional proficiency}{}
+
+\section{About me}
+Entrepreneur and Runner. Love doing sports and living outdoor. Love reading books
+
+\vspace{1mm}
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+%% end of file `main.tex'.
+\grid

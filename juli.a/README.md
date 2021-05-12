@@ -8,5 +8,6 @@ sudo apt-get install texlive-latex-base
 
 # Create PDF
 ```
-
+cd juli.a
+pdflatex main.tex
 ```

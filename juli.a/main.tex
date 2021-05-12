@@ -1,0 +1,235 @@
+%% start of file `main.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Julian}{Alvarez}
+\title{Software Engineer}                               % optional, remove / comment the line if not wanted
+\address{Argentinian}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\email{jalvarez@kindalab.co}                               % optional, remove / comment the line if not wanted
+\extrainfo{29 years old}                 % optional, remove / comment the line if not wanted
+\photo[72pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Working Experience}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Summary}
+Highly-skilled and passionate systems engineer with more than 6 years of experience in software industry. 
+Has worked on back and front end development and participated in the design and implementation of different solutions to solve client’s problems.
+Meticulous professional who undertakes complex assignments, researches new technologies,meets tight deadlines, and delivers superior performance. 
+His experience, positivity, creativity, seriousness, decisional capacity made he an important actor in complex, 
+long term projects, gaining the trust and confidence of several clients and stakeholders.Possesses strong knowledge of software methodologies such as Agile, 
+and many technologies like Java, Spring, SQL. He is opened to new ideas and loves offering his support to other team members in order to successfully completing their tasks.
+
+\medskip Domain experience: Workflow; CMS; Insurance; Benchmarking; Healthcare.
+
+\vspace{10mm}
+
+\section{Experience}
+\cventry{Feb 2021\\Present}{Senior Software Engineer}{KindaLab}{Rosario, Argentina}{}
+  {
+    \begin{itemize}
+      \item HotTake (Canada)
+        \begin{itemize}
+          \item \textbf{Role}: Java Software Engineer. 
+          \item \textbf{Responsibilities}:  Research machine learning technologies. Development of application from scratch, including a crawler and a machine learning algorithm
+          \item \textbf{Project}: The client is focused on delivering improved creativity and content creation.The project is a platform where the user uploads a photo and inputs a description getting the best hashtags for that photo and an improved description, ready to be posted to your favorite social media app.
+          \item \textbf{Technologies}: Java 11, Lombok, Quarkus, Panache, PostgreSQL, Python, Maven, React, Microservices, IntelliJ, GIT, Bitbucket, AWS Rekognition, AWS Comprenhend, AWS SQS
+          \item \textbf{Methodologies}: SCRUM
+        \end{itemize}
+    \end{itemize}
+  }
+
+\vspace{10mm}
+
+\cventry{Feb 2021\\Present}{Senior Software Engineer}{KindaLab}{Rosario, Argentina}{}
+  {
+    \begin{itemize}
+      \item The Hackett Group (Conshohocken, PA, USA):
+        \begin{itemize}
+          \item \textbf{Role}: Java Software Engineer
+          \item \textbf{Responsibilities}: Design and develop of backend and web applications.
+		Discuss and agree with product owners and business team, requirements of the applications. Design and Implementation of a web application based on Grails and a Big Data solution for processing and calculating metrics in real time.
+          \item \textbf{Project}: The Hackett Group is a global strategic business advisory and operations improvement consulting firm, leader in best practice advisory, business benchmarking and transformation consulting services including strategy and operations, working capital management, and globalization advice.
+          \item \textbf{Technologies}: Java 8, Grails, Groovy, AWS, Apache Storm, Redshift, AWS, Git, Redis, Jenkins, Maven, Linux and Tomcat.
+          \item \textbf{Methodologies}: SCRUM
+        \end{itemize}
+    \end{itemize}
+  }
+
+\vspace{10mm}
+
+\cventry{Sep 2020\\Feb 2021}{Senior Software Engineer}{Endava}{Rosario, Argentina}{}
+  {
+    \begin{itemize}
+      \item Healthcare System :
+        \begin{itemize}
+          \item \textbf{Role}: Java Software Engineer 
+          \item \textbf{Responsibilities}: analyze and design solutions for new features, estimation and development of new features, fixing reported bugs, unit/integration testing
+          \item \textbf{Project}: The client is focused on senior-centered care through partnerships with health plans and providers.The project is a platform that receives patients that needs to be refereed from hospitals to different providers in real time
+          \item \textbf{Technologies}: Java 8, Spring, Spring Boot, Hibernate, Maven, AngularJs, Angular 7, Lombok, Microservices, REST, Apache Kafka, Oracle DB, IntelliJ, GIT, Bitbucket, Jenkins, JIRA, Kibana, Octopus Deploy
+        \end{itemize}
+    \end{itemize}
+  }
+
+\vspace{10mm}
+
+\cventry{Jun 2020\\Present}{FullStack Senior Software Engineer}{}{Rosario, Argentina}{}
+  {
+    \begin{itemize}
+      \item Online Events platform :
+        \begin{itemize}
+          \item \textbf{Role}: FullStack Software Engineer 
+          \item \textbf{Responsibilities}: design and development of new features. Testing and deployment. Customer care.
+          \item \textbf{Project}: Personal project that was born in the middle of the Covid-19 pandemic. The project is a web platform and mobile application that allows artist producers to publish their shows and be able to deliver and stream them live or on-demand. Also enables the users to buy online tickets or in-place tickets for those events that have both possibilities. Finally it gives the producers real-time information regarding revenue, in-place tickets remaining, and more.
+          \item \textbf{Technologies}: TypeScript, Vue2, Firebase, NodeJs, NPM, Visual Studio Code, GIT, Bitbucket
+        \end{itemize}
+    \end{itemize}
+  }
+
+\vspace{10mm}
+
+\cventry{April 2018\\April 2020}{Senior Software Engineer}{Endava}{Rosario, Argentina}{}
+  {
+    \begin{itemize}
+      \item The Hackett Group (Conshohocken, PA, USA):
+        \begin{itemize}
+          \item \textbf{Role}: Java Software Engineer
+          \item \textbf{Responsibilities}: Design and develop of backend and web applications.
+		Discuss and agree with product owners and business team, requirements of the applications. Design and Implementation of a web application based on Grails and a Big Data solution for processing and calculating metrics in real time.
+          \item \textbf{Project}: The client is an intellectual property-based strategic consultancy and leading enterprisebenchmarking and best practices digital transformation firm to global companies.The project is a platform that gathers data and process it on real-time to get metrics that reflect the current status of a company. 
+          The analysis of the information allows to identify improvement opportunities and monitor their progress and return of investment
+          \item \textbf{Technologies}: Java 8, Spring, Hibernate, Grails, Groovy, GSP, Vue.JS, jQuery, Spock, Lombok, Gradle, Microservices, REST, ActiveMQ, Apache Storm, PostgreSQL, Redshift, IntelliJ, GIT, Jenkins
+          \item \textbf{Methodologies}: SCRUM
+        \end{itemize}
+    \end{itemize}
+  }
+
+\vspace{10mm}
+
+\cventry{Sep 2017\\March 2018}{Software Engineer}{AAJ}{Rosario, Argentina}{}
+  {
+    \begin{itemize}
+      \item Business intelligence Project:
+        \begin{itemize}
+          \item \textbf{Role}: Business Intelligence Analyst. 
+          \item \textbf{Responsibilities}: create a data warehouse for the company by developing queries and ETLs to extract the data from different sources (SQL Server, DB2, Oracle, among others), manipulate it and finally consolidate it all in the same place.
+          \item \textbf{Project}: The client is a commercial lines property and casualty insurance holding company organized inDelaware and based in Greenwich, Connecticut. The project aim was to create a data warehouse for the client to enable the analysis of the consolidated data and use it to make strategic decisions.
+          \item \textbf{Technologies}:  Microsoft SQL Server, IBM DB2, SQL Server Integration Services, SQL Management Studio, Toad, TFS.
+        \end{itemize}
+    \end{itemize}
+  }
+
+\vspace{10mm}
+
+\cventry{Sep 2016\\Sep 2017}{Software Engineer}{AAJ}{Rosario, Argentina}{}
+  {
+    \begin{itemize}
+      \item Content Management Software System:
+        \begin{itemize}
+          \item \textbf{Role}: Java Software Engineer. 
+          \item \textbf{Responsibilities}: business and functional analysis and requirements, development of the newrequirements, fixing reported bugs, system testing, deliver incremental releases to the client,technical documentation.
+          \item \textbf{Project}: The client is a leader in enterprise work management software which enables thousands oforganizations to engage with customers across key digital channels, optimize sales teamperformance, manage projects and IT costs, and automate critical document workflows.The project is a powerful, enterprise-grade cloud-based content management system (CMS) that helps digital teams deliver and maintain dynamic and highly personalized customer experiences for complex, large-scale websites.
+          \item \textbf{Technologies}: Java, Struts, Hibernate, JDBC, Maven, AngularJS, jQuery,VelocityTemplate, MySQL, Eclipse, Tomcat, GIT.
+        \end{itemize}
+    \end{itemize}
+  }
+
+\vspace{10mm}
+
+\cventry{March 2015\\Sep 2016}{Software Engineer}{AAJ}{Rosario, Argentina}{}
+  {
+    \begin{itemize}
+      \item Automation Workflow System:
+        \begin{itemize}
+          \item \textbf{Role}: Java Software Engineer. 
+          \item \textbf{Responsibilities}: business and functional analysis and requirements, development of the newrequirements, fixing reported bugs, system testing, deliver incremental releases to the client,technical documentation.
+          \item \textbf{Project}: The client is a company that helps organizations to speed business processes, increaseproductivity and reduce operating costs through more efficient business execution and reduced reliance on paper-based forms, documents and processes.The project is workflow automation solution automates existing business processes and presents information and documentation relevant for the task at hand without having to manually search.
+          \item \textbf{Technologies}: Java, GWT, Errai Framework, UberFire, RestEasy, Hibernate, AngularJS, jQuery, Maven, MySQL, NetBeans, Jboss, GIT, Hudson.
+        \end{itemize}
+    \end{itemize}
+  }
+
+\vspace{10mm}
+
+\cventry{Oct 2015\\Dec 2016}{Software Engineer}{AAJ}{Rosario, Argentina}{}
+  {
+    \begin{itemize}
+      \item Crossplatform development framework:
+        \begin{itemize}
+          \item \textbf{Role}: Java Software Engineer. 
+          \item \textbf{Responsibilities}: development and improvement the core module of the framework, as well as
+implementing an internal multiplatform application using it. Also developed the ui module of the framework, an abstraction layer to create views for all platforms with a common DSL.
+          \item \textbf{Project}: The project is an open source framework for developing portable multiplatform applications. It supports web, Android, iOS, Windows Phone and FirefoxOS.
+          \item \textbf{Technologies}: Java, GIT, Eclipse, GWT, Dagger 2, SQLite, Apache Cordova, persistence.js.
+        \end{itemize}
+    \end{itemize}
+  }
+
+
+\section{Skills}
+\cvitem{Programming Languages}{Java, Groovy, JavaScript, TypeScript}
+\cvitem{Databases}{Redis, RedShift, Postgres, MySql, SQLite, ElasticSearch, Firestore and Oracle}
+\cvitem{Big Data/Machine Learning}{Apache Storm, Apache Kafka, RedShift, AWS Comprenhend, AWS Rekognition, NLP tools, Scikit}
+\cvitem{Methodologies}{Agile Methodologies, Kanban and Scrum}
+\cvitem{Others}{Linux, Docker, Quarkus, Firebase, NodeJs, Grails Framework, Spring Framework, jQuery, VueJS, AngularJS, Angular, HTML, CSS}
+
+\section{Education}
+\cventry
+{Sep 2015}
+{BS in Systems Engineering}
+{Universidad Tecnológica Nacional}
+{}
+{\textit{Rosario, Argentina}}
+{}
+\vspace{1mm}
+
+\section{Languages}
+\cvitemwithcomment{Spanish}{Native}{}
+\cvitemwithcomment{English}{Full professional proficiency}{}
+\cvitemwithcomment{French}{Basic}{}
+
+\vspace{1mm}
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+%% end of file `main.tex'.
+\grid

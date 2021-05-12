@@ -1,4 +1,4 @@
-# cacu cv
+# Juli Alavarez cv
 My CV in LaTeX
 
 # Install Latex
